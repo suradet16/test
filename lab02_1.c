@@ -3,9 +3,9 @@
 
 int main(){
     int k,x = 2;
-    printf ( " Enter number:  "); 
+    printf ( " Enternumber:  "); 
     scanf("%d", &k);
-    printf ( " Factoring Result:  ");
+    printf ( " FactoringResult:  ");
     while(k != 1){
         while(k % x == 0){
             printf(" %d",x);
